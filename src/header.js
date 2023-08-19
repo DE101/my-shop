@@ -1,8 +1,11 @@
 import "./App.css";
+import SearchBar from "./SearchBar";
 
 
 export default function Header() {
     return (
-        <h1>My Shop</h1>
+        <div className="Header">
+            <h1>My Shop</h1><SearchBar></SearchBar>
+        </div>
     )
 };

@@ -1,1 +1,29 @@
+.col-lg-4 {
+  color: black;
+}
+.card {
+  color: black;
+}
+.fab {
+  color: red;
+}
 
+.card-img-top {
+  display: flex;
+}
+.card-body {
+  justify-self: start;
+}
+.text-center {
+  align-self: center;
+}
+.card-title {
+  font-weight: 400;
+}
+.text-muted {
+  font-size: 20px;
+}
+
+   .d-flex  {
+    display: block;
+   }

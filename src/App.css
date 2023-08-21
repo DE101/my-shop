@@ -105,3 +105,6 @@ tr {
 .d-flex  {
     display: block;
 }
+button {
+  justify-self: left;
+}

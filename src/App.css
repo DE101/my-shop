@@ -18,7 +18,7 @@ header {
   width: 100%;
 }
 .searchbar {
-  height: 25px;
+  height: 70%;
 }
 input {
   justify-self: center;

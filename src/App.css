@@ -62,7 +62,6 @@ input:active {
   border-radius: 17px;
   display: flex;
   align-items: center;
-  justify-content: center;
   flex-direction: column;
   padding: 5px;
 }
@@ -72,39 +71,21 @@ img {
   height: 159px;
   flex-shrink: 0;
   border-radius: 12px;
+  margin: 18px 0 18px 0;
 }
-tr {
-  border-bottom: solid 1px #333;
-}
-.col-lg-4 {
-  color: black;
-}
-.card {
-  color: black;
-}
-.fab {
-  color: red;
-}
-
-.card-img-top {
+.text-container {
   display: flex;
+  flex-direction: row;
+  border-bottom: solid 1px black;
+  justify-content: left;
+  gap: 20px;
+  padding: 10px;
 }
-.card-body {
-  justify-self: start;
-}
-.text-center {
-  align-self: center;
-}
-.card-title {
-  font-weight: 400;
-}
-.text-muted {
-  font-size: 20px;
-}
-
-.d-flex  {
-    display: block;
-}
-button {
+.action {
   justify-self: left;
+  padding: 10px;
+}
+.action > button {
+  padding: 4px 10px 4px 10px;
+  border-radius: 5px;
 }

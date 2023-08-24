@@ -76,10 +76,11 @@ img {
 .text-container {
   display: flex;
   flex-direction: row;
-  border-bottom: solid 1px black;
+  border-bottom: solid 1px #7f6b6b ;
   justify-content: left;
   gap: 20px;
   padding: 10px;
+  width: 90%;
 }
 .action {
   justify-self: left;

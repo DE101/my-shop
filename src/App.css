@@ -22,10 +22,9 @@ header {
 }
 input {
   justify-self: center;
-  border: solid 3px black;
+  border: solid 3px #7f6b6b;
   border-radius: 7px;
-  width: 491px;
-  height: 35px;
+  width: 100%;
 }
 input:hover {
   border: solid 3px blue;
@@ -71,7 +70,7 @@ img {
   height: 159px;
   flex-shrink: 0;
   border-radius: 12px;
-  margin: 18px 0 18px 0;
+  margin: 18px 0 10px 0;
 }
 .text-container {
   display: flex;

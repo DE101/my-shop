@@ -53,11 +53,19 @@ input:active {
 .nav a:hover {
   background-color: white;
 }
+
+.site-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
 .itemContainer {
   margin: 20px;
   background-color: #d9d9d9;
-  width: 350px;
-  height: 372px;
+  width: 420px;
+  height: 410px;
   flex-shrink: 0;
   border-radius: 17px;
   display: flex;
@@ -66,9 +74,9 @@ input:active {
   padding: 5px;
 }
 img {
-  max-width: 440px;
-  width: 309px;
-  height: 159px;
+  max-width: 400px;
+  width: 380px;
+  height: 190px;
   flex-shrink: 0;
   border-radius: 12px;
   margin: 18px 0 10px 0;
@@ -76,7 +84,7 @@ img {
 .text-container {
   display: flex;
   flex-direction: row;
-  border-bottom: solid 1px #7f6b6b ;
+  border-bottom: solid 0.5px #7f6b6b;
   justify-content: left;
   gap: 20px;
   padding: 10px;

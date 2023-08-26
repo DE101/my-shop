@@ -65,7 +65,7 @@ input:active {
   margin: 20px;
   background-color: #d9d9d9;
   width: 420px;
-  height: 410px;
+  height: fit-content;
   flex-shrink: 0;
   border-radius: 17px;
   padding: 5px;
@@ -122,7 +122,8 @@ img {
 }
 
 .itemDescription {
-    word-wrap: normal;
+    word-wrap: break-all;
+    font-weight: bold;
 }
 
 .itemDescriptionExcerse {

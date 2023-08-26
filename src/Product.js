@@ -5,21 +5,27 @@ export default function Product(props) {
         <i className="fab fa-apple fa-lg pt-3 pb-1 px-3"></i>
         <img src={props.data.thumbnail} className="img" alt="Apple Computer" />
         <div className="text-container">
-          <h5 className="card-title">{props.data.title}</h5>
-          <p className="text-muted mb-4">{props.data.description}</p>
-
-          <span className="itemDescription">Price</span>
-          <span className="itemDescription-excerpt">{props.data.price}</span>
-
-          <span className="itemDescription">Discount Percentage</span>
-          <span className="itemDescription-excerpt">{props.data.discountPercentage}</span>
-
-          <span className="itemDescription">Rating</span>
-          <span className="itemDescription-excerpt">{props.data.rating}/5</span>
+          <h5 className="itemDescription">{props.data.title}</h5>
+          <p className="itemDescriptionExcerse">{props.data.description}</p>
         </div>
-
-        <span className="itemDescription">Total</span>
-        <span className="itemDescription-excerpt">{props.data.price}</span>
+        <div className="text-container">
+          <span className="itemDescription">Price:</span>
+          <span className="itemDescriptionExcerse">{props.data.price}</span>
+        </div>
+        <div className="text-container">
+          <span className="itemDescription">Discount Percentage:</span>
+          <span className="itemDescriptionExcerse">
+            {props.data.discountPercentage}
+          </span>
+        </div>
+        <div className="text-container">
+          <span className="itemDescription">Rating:</span>
+          <span className="itemDescriptionExcerse">{props.data.rating}/5</span>
+        </div>
+        <div className="text-container">
+          <span className="itemDescription">Total:</span>
+          <span className="itemDescriptionExcerse">{props.data.price}</span>
+        </div>
       </div>
     </div>
   );

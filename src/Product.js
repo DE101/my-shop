@@ -35,6 +35,7 @@ export default function Product(props) {
             <span className="itemDescription">Total:</span>
             <span className="itemDescriptionExcerse">{props.data.price}</span>
           </div>
+          <div className="action"><button>Buy</button></div>
         </div>
       </div>
     </div>

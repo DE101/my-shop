@@ -58,7 +58,7 @@ input:active {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    justify-content: center;
+    
 }
 
 .itemContainer {
@@ -68,12 +68,29 @@ input:active {
   height: 410px;
   flex-shrink: 0;
   border-radius: 17px;
-  display: flex;
-  align-items: center;
-  flex-direction: column;
   padding: 5px;
+  justify-content: center;
 }
-.img {
+
+.itemCard {
+    transition: 0.3s;
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.itemCard:active {
+    box-shadow: #333;
+    
+}
+
+.image-container {
+    justify-content: center;
+}
+
+img {
   max-width: 400px;
   width: 380px;
   height: 190px;
@@ -84,6 +101,7 @@ input:active {
 .text-container {
   display: flex;
   flex-direction: row;
+  max-width: 100%;
   border-bottom: solid 0.5px #7f6b6b;
   justify-content: left;
   gap: 20px;
@@ -91,7 +109,8 @@ input:active {
   width: 90%;
 }
 .action {
-  justify-self: left;
+  width:calc(100% - 40px);
+  justify-content: left;
   padding: 10px;
 }
 .action > button {
@@ -103,9 +122,9 @@ input:active {
 }
 
 .itemDescription {
-  color: #3c0606;
+    word-wrap: normal;
 }
 
-.itemDescription-excerpt {
-  color: #333;
+.itemDescriptionExcerse {
+    word-wrap: break-all;
 }
